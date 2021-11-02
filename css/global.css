@@ -1,0 +1,57 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--secondary);
+}
+
+.block {
+  margin-bottom: 120px;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.subtitle {
+  color: var(--secondary);
+  font-weight: 400;
+}
+
+.button {
+  text-transform: lowercase;
+  font-weight: 500;
+  padding-right: 1.4rem;
+  padding-left: 1.4rem;
+}
+
+.button-primary {
+  background-color: var( --primary);
+  border-color:var( --primary);
+}
+
+.button-primary:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+.button-primary-outline {
+  background-color: var( --light);
+  border-color: var(--primary-dark);
+  color:var( --primary);
+}
+
+.button-primary-outline:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
